@@ -1,9 +1,9 @@
-@media (min-width: 985px) {
+@media (max-width: 499px) {
     .Backp {
-        z-index: -2;
+        z-index: 0;
         background-color: rgb(213, 213, 213);
         width: 100vw;
-        height: 130vh;
+        height: 170vh;
         position:absolute;
         left: 0vw;
         top: 0vh;
@@ -11,7 +11,7 @@
       }
 
       .BackTopp {
-        z-index: -1;
+        z-index: 0;
         background-color: rgb(62, 61, 61);
         width: 100vw;
         height: 8vh;
@@ -60,30 +60,177 @@
       }
       .square1 {
         position: absolute;
-        left: 7.5vw;
+        left: 5vw;
         top: 45vh;
-        width: 16vw;
-        height: 16vw;
+        width: 40vw;
+        height: 40vw;
+      }
+
+      .proj1d {
+        color: #000000;
+        position: absolute;
+        top: calc(45vh + 40vw + 15px);
+        left: 17vw;
+        font-size: 4vw;
       }
       .square2 {
         position: absolute;
-        left: 30.5vw;
+        left: 55vw;
         top: 45vh;
-        width: 16vw;
-        height: 16vw;
+        width: 40vw;
+        height: 40vw;
+      }
+      .proj2d {
+        color: #000000;
+        position: absolute;
+        top: calc(45vh + 40vw + 15px);
+        left: 70vw;
+        font-size: 4vw;
       }
       .square3 {
         position: absolute;
-        left: 53.5vw;
-        top: 45vh;
-        width: 16vw;
-        height: 16vw;
+        left: 5vw;
+        top: calc(45vh + 40vw + 60px);
+        width: 40vw;
+        height: 40vw;
+      }
+      .proj3d {
+        color: #000000;
+        position: absolute;
+        top: calc(45vh + 80vw + 75px);
+        left: 22vw;
+        font-size: 4vw;
       }
       .square4 {
         position: absolute;
-        left: 76.5vw;
-        top: 45vh;
-        width: 16vw;
-        height: 16vw;
+        left: 55vw;
+        top: calc(45vh + 40vw + 60px);
+        width: 40vw;
+        height: 40vw;
+      }
+      .proj4d {
+        color: #000000;
+        position: absolute;
+        top: calc(45vh + 80vw + 75px);
+        left: 75vw;
+        font-size: 4vw;
       }
     }
+  
+    @media (min-width: 500px) {
+      .Backp {
+          z-index: 0;
+          background-color: rgb(213, 213, 213);
+          width: 100vw;
+          height: 130vh;
+          position:absolute;
+          left: 0vw;
+          top: 0vh;
+        
+        }
+  
+        .BackTopp {
+          z-index: 0;
+          background-color: rgb(62, 61, 61);
+          width: 100vw;
+          height: 8vh;
+          position:absolute;
+          left: 0vw;
+          top: 0vh;
+        
+        }
+        .Linep {
+          border: none; 
+          height: 1px; 
+          width: 100vw;
+          background-color: #ffffff; /* Sets the color of the line */
+          margin: 20px 0; 
+          position: absolute;
+          top: 4vh;
+          left: -0vw;
+        }
+        .centerp{
+          border: none; 
+          height: 100vh; 
+          width: 1px;
+          background-color: #ffffff; 
+          position: absolute;
+          top: 0vh;
+          left: 50vw;
+        }
+        .project {
+          position: absolute;
+          width: 100vw;
+          top: 15vh;
+          left: 0vw;
+        }
+  
+        .project h2{
+          float: center;
+          top: 15vh;
+          left: 0vw;
+          color: #b93f16;
+        }
+  
+        .project h1{
+          float: center;
+          font-size: 3.5vw;
+          color: #000000;
+        }
+        .square1 {
+          position: absolute;
+          left: 7.5vw;
+          top: 45vh;
+          width: 16vw;
+          height: 16vw;
+        }
+        .proj1d {
+          color: #000000;
+          position: absolute;
+          top: calc(45vh + 16vw + 15px);
+          left: 11vw;
+          font-size: 2vw;
+        }
+        .square2 {
+          position: absolute;
+          left: 30.5vw;
+          top: 45vh;
+          width: 16vw;
+          height: 16vw;
+        }
+        .proj2d {
+          color: #000000;
+          position: absolute;
+          top: calc(45vh + 16vw + 15px);
+          left: 37vw;
+          font-size: 2vw;
+        }
+        .square3 {
+          position: absolute;
+          left: 53.5vw;
+          top: 45vh;
+          width: 16vw;
+          height: 16vw;
+        }
+        .proj3d {
+          color: #000000;
+          position: absolute;
+          top: calc(45vh + 16vw + 15px);
+          left: 60vw;
+          font-size: 2vw;
+        }
+        .square4 {
+          position: absolute;
+          left: 76.5vw;
+          top: 45vh;
+          width: 16vw;
+          height: 16vw;
+        }
+        .proj4d {
+          color: #000000;
+          position: absolute;
+          top: calc(45vh + 16vw + 15px);
+          left: 85vw;
+          font-size: 2vw;
+        }
+      }

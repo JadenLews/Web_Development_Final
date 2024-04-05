@@ -18,10 +18,16 @@ export default function ProjectsPage() {
                 <h2>Projects</h2>
                 <h1>Check Out My Creations</h1>
             </div>
-            <img src={one} alt="Github"  className='square1'/>
+            <a href="/calculator">
+                <img src={one} alt="Gmail" className='square1'/>
+            </a>
+            <p className='proj1d'>Calculator</p>
             <img src={two} alt="Github"  className='square2'/>
+            <p className='proj2d'>Proj</p>
             <img src={three} alt="Github"  className='square3'/>
+            <p className='proj3d'>Proj</p>
             <img src={four} alt="Github"  className='square4'/>
+            <p className='proj4d'>Proj</p>
 
 
     </div>

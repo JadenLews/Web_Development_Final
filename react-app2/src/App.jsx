@@ -10,6 +10,8 @@ import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
 import ResumePage from './ResumePage';
 import ContactPage from './ContactPage';
+import Calculator from './calculator';
+
 
 
 
@@ -30,6 +32,7 @@ function App() {
         <Route path="/resume" element={<LayoutWithNav><ResumePage /></LayoutWithNav>} />
         <Route path="/projects" element={<LayoutWithNav><ProjectsPage /></LayoutWithNav>} />
         <Route path="/contacts" element={<LayoutWithNav><ContactPage /></LayoutWithNav>} />
+        <Route path="/calculator" element={<LayoutWithNav><Calculator /></LayoutWithNav>} />
       </Routes>
     </Router>
     </div>

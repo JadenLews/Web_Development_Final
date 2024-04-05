@@ -1,5 +1,5 @@
 import './AboutPage.css'
-import yuup from './yuup.jpeg';
+import Myim from './Myim.jpg';
 export default function AboutPage() {
     return (
         <div className="AboutPage">
@@ -11,13 +11,12 @@ export default function AboutPage() {
             <p>‎</p>
             <p>‎</p>
             <div className='imagetext'>
-            <img src={yuup} />
-            <p>This is a paragraph about me and my skills and history, and blah blah bah I
-                can put a lot here but I haven't yet thought what to put here blah blha blah 
-                womp womp here  jdfsdfk. This is a paragraph about me and my skills and history, 
-                and blah blah bah I can put a lot here but I haven't yet thought what 
-                to put here blah blha blah womp womp here jdfsdfk I haven't yet thought what 
-                to put here blah blha blah womp womp here jdfsdfk
+            <img src={Myim} />
+            <p>I am an aspiring software engineer with an interest in computer science and data science.
+                Currently, I am working towards my B.S. in Computer Science at Clark University, class of 2026.
+                My primary interests are in artificial intelligence, machine learning, and data analysis. My most 
+                recent project involved ****. As a consistent high honors Dean's List student with a 3.86 GPA, my 
+                academic journey reflects my passion and dedication to this field.
                 </p>
             </div>
             <div className='AboutTextTop'>
@@ -28,14 +27,15 @@ export default function AboutPage() {
                 <h1>Skills</h1>
             </div>
             <div className='skillList'>
-                <h1>big skill1 big skill2 big skill3</h1>
-                <h2>medium skill1 medium skill2 medium skill3 medium skill4</h2>
-                <h3>small skill1 small skill2 small skill3 small skill4</h3>
-                <h3>small skill5 small skill6 small skill7 small skill8</h3>
+                <h1>Java • Python • Research</h1>
+                <h2>Math • SQL • Database • HTML • Django • Collaboration</h2>
+                <h3>Back-End • Front-End • Statistics • LATEX • MatPlotLibrary</h3>
+                <h3>Project Management • Organization</h3>
             </div>
             <div className='Me'>
                 <h1>Me</h1>
             </div>
+            <div className='okl'>
             <div className='line1s'>
                 <div className='line1'></div>
                 <p><strong>N A M E :</strong> Jaden Lewis</p>
@@ -59,6 +59,7 @@ export default function AboutPage() {
             <div className='line6s'>
                 <div className='line6'></div>
                 <p><strong>M A J O R:</strong> Computer Science</p>
+            </div>
             </div>
 
         </div>

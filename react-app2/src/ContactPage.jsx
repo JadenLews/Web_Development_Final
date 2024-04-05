@@ -14,16 +14,22 @@ export default function ContactPage() {
                 <h1>I'd Love To Connect With You.</h1>
             </div>
             <div className='github'>
-                <img src={git} alt="Github"  />
+            <a href="https://github.com/JadenLews">
+                <img src={git} alt="Gmail" />
+            </a>
                 <h3>Check Out My Github</h3>
             </div>
             <div className='email'>
-            <img src={mail} alt="Github"  />
+            <a href="mailto:lewisjaden19@gmail.com">
+                <img src={mail} alt="Gmail" />
+            </a>
                 <h3>Email Me At </h3>
                 <p>lewisjaden19@gmail.com</p>
             </div>
             <div className='linkedinl'>
-                <img src={linked} alt="Github"  />
+            <a href="https://www.linkedin.com/in/jaden-lewis-5379b7236/">
+                <img src={linked} alt="Gmail" />
+            </a>
                 <h3>Add Me On Linkedin</h3>
             </div>
     </div>

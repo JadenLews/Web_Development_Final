@@ -1,9 +1,4 @@
-@media (min-width: 487px) {
-    .ResumePage {
-        position: absolute;
-        top: 0vw;
-        left: 0vw
-      }
+@media (min-width: 700px) {
       
       .ResumeBack {
         z-index: -2;
@@ -75,7 +70,7 @@
   
   .Dotline {
     border: none; 
-    height: 30vh; 
+    height: 60vh; 
     width: 1px;
     background-color: rgb(190, 188, 188);
     margin: 20px 0; 
@@ -107,32 +102,131 @@
     .clark h2{
       position: relative;
     color: rgb(59, 58, 58);
-    font-size: 1.8vw;
+    font-size: 25px;
     width: 20vw;
-    top: -4.5vw;
-    left: 15vw;
-    }
-  
-    .clark li{
-      color: rgb(59, 58, 58);
-      font-size: 1.8vw;
-      width: 18vw;
+    top: -35px;
+    left: 18vw;
     }
   
     .list1clark1{
       position: absolute;
-      left: -1vw;
+      left: 1vw;
       top: 8vh;
+      width: 60vw;
+      height: 30vh;
+    }
+
+    .list1clark1 p{
+      color: rgb(59, 58, 58);
+      font-size: 17px;
+      position: absolute;
+      float: center;
+    }
+
+    .first1 {
+      top: 0vh;
+      float: center;
+    }
+
+    .first2 {
+      top: calc(0vh + 35px);
+    }
+
+    .first3 {
+      top: calc(0vh + 70px);
+    }
+    .first4 {
+      top: calc(0vh + 105px);
+    }
+
+    .first5 {
+      top: calc(0vh + 140px);
+    }
+
+    .workdot1 {
+      position: absolute;
+      top: 95vh;
+      left: 36vw;
+      height: 4vw;
+      width: 4vw;
+      background-color: rgb(81, 80, 80);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .work1 {
+      position: absolute;
+      left: 36.25vw;
+      top: 95.3vh;
+      width: 3.5vw; 
+      height: 3.5vw; 
+      }
+    
+      .LeftPug {
+        position: absolute;
+        top: 93vh;
+        left: 3vw;
+        width: 33vw;
+      }
+    
+    .LeftPug h1{
+      color: rgb(59, 58, 58);
+      margin-bottom: 0vh;
+      font-size: 2.5vw;
+    }
+    
+    .LeftPug h3{
+      color: rgb(103, 101, 101);
+      margin-bottom: 0vh;
+      margin-top: 0vh;
+      font-size: 1.6vw;
+    }
+    
+    .LeftPug p{
+      color: rgb(59, 58, 58);
+    }
+
+    .pugwork {
+      position: absolute;
+      top: 90vh;
+      left: 40vw;
     }
   
-    .list1clark2{
+    .listpug{
       position: absolute;
+      left: 1vw;
       top: 8vh;
-      left: 19vw;
+      width: 60vw;
+      height: 30vh;
+    }
+
+    .listpug h2{
+      position: relative;
+    color: rgb(59, 58, 58);
+    font-size: 30px;
+    width: 20vw;
+    top: -50px;
+    left: 0vw;
+    }
+
+    .listpug p{
+      color: rgb(59, 58, 58);
+      font-size: 17px;
+      position: absolute;
+      float: center;
+    }
+
+    .first1p {
+      top: 20px;
+      float: center;
+    }
+
+    .first2p {
+      top: calc(0vh + 60px);
     }
   }
 
-@media (max-width: 486px) {
+@media (max-width: 699px) {
     .ResumePage {
         position: absolute;
         top: 0vw;
@@ -173,7 +267,7 @@
       position: absolute;
       top: 34vh;
       left: 2vw;
-      width: 60vw;
+      width: 70vw;
     }
   
   .LeftClark h1{
@@ -183,6 +277,8 @@
   }
   
   .LeftClark h3{
+    position: relative;
+    top: 0px;
     color: rgb(103, 101, 101);
     margin-bottom: 0vh;
     margin-top: 0vh;
@@ -192,8 +288,8 @@
   .LeftClark p{
     position: absolute;
     color: rgb(59, 58, 58);
-    font-size: 3vw;
-    top: 9vh;
+    font-size: min(3vw, 15px);
+    top: calc(15px + 9vh);
   }
   
   .clarkdot {
@@ -209,7 +305,7 @@
   
   .Dotline {
     border: none; 
-    height: 30vh; 
+    height: 61vh; 
     width: 1px;
     background-color: rgb(190, 188, 188);
     margin: 20px 0; 
@@ -234,38 +330,145 @@
   
     .clark h3{
     position: absolute;
-    top: -10vh;
-    left: 16.5vw;
+    top: calc(-10vh + 10px);
+    left: 14vw;
     color: rgb(244, 38, 38);
-    font-size: 3vw;
-    width: 30vw;
+    font-size: 17px;
+    width: 40vw;
     }
   
     .clark h2{
       position: absolute;
     color: rgb(59, 58, 58);
-    font-size: 3vw;
+    font-size: 15px;
     width: 20vw;
-    top: -9.7vh;
-    left: 50vw;
-    }
-  
-    .clark li{
-      color: rgb(59, 58, 58);
-      font-size: 2.8vw;
-      width: 30vw;
+    top: calc(-9.5vh + 10px);
+    left: 53vw;
     }
   
     .list1clark1{
       position: absolute;
-      left: -7vw;
-      top: 2vh;
+      left: 5vw;
+      top: 18vh;
+      width: 70vw;
+      height: 30vh;
+    }
+
+    .list1clark1 p{
+      color: rgb(59, 58, 58);
+      font-size: 9px;
+      position: absolute;
+      float: center;
+    }
+
+    .first1 {
+      top: 0vh;
+      float: center;
+    }
+
+    .first2 {
+      top: 25px;
+      float: center;
+      left: 35px;
 
     }
-  
-    .list1clark2{
+
+    .first3 {
+      top: calc(0vh + 50px);
+      left: 30px;
+
+    }
+    .first4 {
+      top: calc(0vh + 75px);
+      left: 10px;
+
+    }
+
+    .first5 {
+      top: calc(0vh + 100px);
+      left: 60px;
+
+    }
+
+    .workdot1 {
       position: absolute;
-      top: 2vh;
-      left: 30vw;
+      top: 90vh;
+      left: 76vw;
+      height: 8vw;
+      width: 8vw;
+      background-color: rgb(81, 80, 80);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .work1 {
+      position: absolute;
+      left: 76.5vw;
+      top: 90.2vh;
+      width: 7vw; 
+      height: 7vw; 
+      }
+
+      .LeftPug {
+        position: absolute;
+        top: 93vh;
+        left: 3vw;
+        width: 70vw;
+      }
+    
+    .LeftPug h1{
+      color: rgb(59, 58, 58);
+      margin-bottom: 0vh;
+      font-size: 20px;
+    }
+    
+    .LeftPug h3{
+      color: rgb(103, 101, 101);
+      margin-bottom: 0vh;
+      margin-top: 0vh;
+      font-size: 15px;
+    }
+    
+    .LeftPug p{
+      color: rgb(59, 58, 58);
+    }
+
+    .pugwork {
+      position: absolute;
+      top: 115vh;
+      left: 2vw;
+    }
+  
+    .listpug{
+      position: absolute;
+      left: 1vw;
+      top: 8vh;
+      width: 60vw;
+      height: 30vh;
+    }
+
+    .listpug h2{
+      position: relative;
+    color: rgb(59, 58, 58);
+    font-size: 30px;
+    width: 20vw;
+    top: -50px;
+    left: 25vw;
+    }
+
+    .listpug p{
+      color: rgb(59, 58, 58);
+      font-size: 17px;
+      position: absolute;
+      float: center;
+    }
+
+    .first1p {
+      top: 20px;
+      float: center;
+    }
+
+    .first2p {
+      top: calc(0vh + 60px);
     }
 }
