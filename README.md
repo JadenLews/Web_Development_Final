@@ -27,8 +27,6 @@ This is my personal website, built using **React**, **HTML**, **CSS**, and **Jav
 
 ## Screenshots
 
-> Place screenshots in a folder named `/assets` inside your repo, then reference them like this:
 
-```markdown
-![Home Page](assets/img2.png)
 ![Projects Section](assets/img1.png)
+![Home Page](assets/img2.png)
